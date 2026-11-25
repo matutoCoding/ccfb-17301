@@ -1,0 +1,23 @@
+{
+  "name": "milking-robot-vision-lab",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "挤奶机器人乳头识别仿真与筛牛系统",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "selftest": "tsx scripts/selftest.ts"
+  },
+  "dependencies": {
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.7",
+    "@types/three": "^0.187.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "vite": "^6.3.0"
+  }
+}
